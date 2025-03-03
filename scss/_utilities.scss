@@ -1,0 +1,104 @@
+.m-0 {
+    margin: 0;
+  }
+  
+  .p-0 {
+    padding: 0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .full-view-height {
+    height: 100vh;
+    height: 100dvh;
+  }
+  
+  .full-height {
+    height: 100%;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .justify-content-around {
+    justify-content: space-around;
+  }
+  .justify-content-end {
+    justify-content: flex-end;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .align-items-start {
+    align-items: flex-start;
+  }
+  
+  .align-items-stretch {
+    align-items: stretch;
+  }
+  
+  .align-items-end {
+    align-items: flex-end;
+  }
+  
+  .visuallyHidden {
+    &:not(:focus, :active) {
+      clip-path: inset(50%);
+      height: 0.0625rem;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 0.0625rem;
+    }
+  }
+  
+  .text-capitalize {
+    text-transform: capitalize;
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  
+  // class to apply on locked cards/list
+  .lockedCards {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  

@@ -1,0 +1,33 @@
+// Screen Sizes
+$screen-xs:                  480px !default;
+$screen-sm:                  768px !default;    // Small screen / tablet
+$screen-md:                  992px !default;    // Medium screen / desktop
+$screen-lg:                  1200px !default;   // Large screen / wide desktop
+
+
+// Grid Variables.
+$desktop-breakpoint: 100rem;
+$max-width-mobile-breakpoint: 46.4375rem;
+$min-width-mobile-breakpoint: 46.5rem;
+$small-mobile-breakpoint: 24.375rem;
+
+
+// Content width
+$mobile-content-width: 21.875rem;
+$desktop-content-width: 36.75rem;
+
+// Spacing Variables
+$spacing-3xs: 0.25rem;
+$spacing-xxs: 0.5rem;
+$spacing-xs: 0.75rem;
+$spacing-s: 1rem;
+$spacing-m: 1.25rem;
+$spacing-l: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-xxl: 2.5rem;
+$spacing-3xl: 3rem;
+$spacing-4xl: 3.75rem;
+$spacing-5xl: 4.5rem;
+$spacing-5float: 5rem;
+$spacing-6xl: 6rem;
+$spacing-7xl: 7.5rem;
