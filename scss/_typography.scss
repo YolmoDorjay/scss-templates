@@ -1,3 +1,5 @@
+@import "./variables";
+
 .body {
     font-size: 1.125rem;
     line-height: 1.125;
@@ -10,6 +12,9 @@ p {
 }
 
 .heading-1 {
-    font-size: 7.5rem;
-    font-weight: $font-weight-black;
+    @include title($font-size-9xl);
+}
+
+.heading-2 {
+    @include title($font-size-8xl);
 }
