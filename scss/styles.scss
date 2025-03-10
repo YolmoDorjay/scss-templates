@@ -14,3 +14,54 @@ body {
   color: $dark-black;
   overflow: unset !important;
 }
+
+.images-section {
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-end;
+  width: 100%; /* Full viewport width */
+  
+  img {
+    flex-grow: 1;
+    object-fit: cover; /* Ensure images retain aspect ratio */
+    max-width: 100%;
+    height: auto;
+    // aspect-ratio: 1 / 1; /* 1:1 aspect ratio */
+  }
+
+  // img:nth-child(4) {
+  //   aspect-ratio: 3 / 4; /* 1:1.5 aspect ratio */
+  // }
+}
+
+.category-pathing{
+  background-color: $breeze;
+  padding: $spacing-4xl;
+  display: flex;
+  text-transform: uppercase;
+  .category-text {
+    flex: 1;
+  }
+
+  .category-design {
+    flex: 3;
+  }
+  .category-row{
+    display: flex;
+    align-items: flex-end;
+
+    
+    h2 {
+      font-size: 4rem;
+      margin: 0;
+    }
+    img {
+      width: 200px;
+    }
+    div{
+      align-self: self-end;
+    }
+  }
+}
