@@ -2,6 +2,8 @@ Clone the project
 
 $ npm install
 
-Run gulp compileSass to compile sass
+Run gulp to compile sass
 
-WIP in progress
+Run $ npm start to start server in localhost:3000
+
+Currently using Browser sync to watch for changes in html and css file.
