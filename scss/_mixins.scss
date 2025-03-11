@@ -2,7 +2,6 @@
 @import "./_variables.scss";
 
 @mixin title($font-size) {
-    color: $black;
     font-size: $font-size;
     font-style: normal;
     font-weight: $font-weight-black;
